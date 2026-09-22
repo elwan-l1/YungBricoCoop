@@ -64,7 +64,13 @@ analysis, implementation, or verification.
   write normal prose for rest of task/session. Resume only after explicit user
   enablement. Latest explicit style preference wins.
 
-## Commands
+## Search
+
+- Use `rg` for search. Use `rg --files` for files.
+- Search local path first. Expand only when needed.
+- Combine terms in one regex. Read matches and nearby lines.
+- No `grep`, `find`, or broad scans unless `rg` fails.
+- Example: `rg -n "symbol|error|behavior" src/`
 
 ## Verification
 
